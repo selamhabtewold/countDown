@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(171, 159, 159);
+}
+.output {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    box-shadow: 5px 5px 25px rgba(44, 40, 40, 0.3);
+    text-shadow: 2px 2px 4px black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    font-size: 2rem;
+
+
+}
+
+.hrs,
+.mins,
+.secs,
+span {
+    padding: 10px 3px;
+
+}
+
+
+#start,
+#set {
+    width: max-content;
+    padding: 5px 30px;
+    border-radius: 8px;
+}
+
+
+
+#hr,
+#min,
+#sec {
+    overflow: hidden;
+    border: none;
+    border-right: 2px solid black;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container {
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.inputs {
+
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.timer,
+.sub-container {
+    align-items: center;
+    justify-content: center;
+    top: 20%;
+    margin: 10px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btns {
+    margin: 30px 10px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
